@@ -1,0 +1,4 @@
+.dropdown-item:hover, .nav-item .nav-link:hover {
+    background-color: black !important;
+    color: #D82A00 !important;
+}

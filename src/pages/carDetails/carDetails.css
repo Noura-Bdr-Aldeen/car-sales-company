@@ -1,0 +1,75 @@
+.car-details-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-details-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.car-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.car-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.car-image-wrapper:hover .car-image {
+    transform: scale(1.1);
+}
+
+.car-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    padding: 20px;
+    text-align: center;
+}
+
+.car-title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.car-year {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.car-details-body {
+    padding: 2rem;
+}
+
+.car-specs .list-group-item {
+    border: solid 1px #1969B2;
+    padding: 10px 0;
+    background: transparent;
+}
+
+.feature-badge {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+    background-color: #1968b20a;
+    border: #1969B2 solid 1px;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+.feature-badge:hover {
+    transform: scale(1.1);
+}

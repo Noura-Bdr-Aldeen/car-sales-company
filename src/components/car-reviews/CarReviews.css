@@ -1,0 +1,56 @@
+.car-reviews-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.car-review-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.car-review-image {
+    height: 250px;
+    object-fit: cover;
+}
+
+.author-image {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carousel-arrow-prev,
+.carousel-arrow-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-arrow-prev:hover,
+.carousel-arrow-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-arrow-prev::before {
+    content: '←';
+}
+
+.carousel-arrow-next::before {
+    content: '→';
+}
