@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col, Card, ListGroup, Badge } from 'react-bootstrap';
 import { apiCars } from '../../../data';
-import './CarDetails.css';
+import './carDetails.css';
 
 const CarDetails = () => {
   const { id } = useParams();
